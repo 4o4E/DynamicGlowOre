@@ -10,7 +10,8 @@ Minecraft 动态发光矿石 材质包
 https://www.bilibili.com/video/BV1cv411v77b/
 
 # 效果展示
-![gif](https://user-images.githubusercontent.com/58851040/119341091-f6324180-bcc5-11eb-91a5-5312d9b49619.gif)
+![gif](https://user-images.githubusercontent.com/58851040/119341091-f6324180-bcc5-11eb-91a5-5312d9b49619.gif) (PBR)
+![gif](https://user-images.githubusercontent.com/58851040/119347633-5af19a00-bcce-11eb-935c-45336c09858d.gif) (NORMAL)
 ![image](https://user-images.githubusercontent.com/58851040/119341188-0fd38900-bcc6-11eb-8f29-8a4845011848.png)
 ![image](https://user-images.githubusercontent.com/58851040/119341282-2a0d6700-bcc6-11eb-8382-e0c8fe19f053.png)
 
