@@ -10,13 +10,10 @@ Minecraft 动态发光矿石 材质包
 https://www.bilibili.com/video/BV1cv411v77b/
 
 # 效果展示
-下图为NORMAL版的动图展示
-![gif](https://user-images.githubusercontent.com/58851040/119347633-5af19a00-bcce-11eb-935c-45336c09858d.gif)
-下图为PBR版的动图展示
-![gif](https://user-images.githubusercontent.com/58851040/119341091-f6324180-bcc5-11eb-91a5-5312d9b49619.gif)
+![gif](https://user-images.githubusercontent.com/58851040/119498294-0adf0a00-bd98-11eb-93fe-2d19f9f6ff51.gif)
 ![image](https://user-images.githubusercontent.com/58851040/119341188-0fd38900-bcc6-11eb-8f29-8a4845011848.png)
 ![image](https://user-images.githubusercontent.com/58851040/119341282-2a0d6700-bcc6-11eb-8382-e0c8fe19f053.png)
 
 # 封面
-![pack](https://user-images.githubusercontent.com/58851040/119325908-f7f30980-bcb3-11eb-8dae-5aa0703ccd46.png)
-![pack](https://user-images.githubusercontent.com/58851040/119325927-fcb7bd80-bcb3-11eb-94f0-8b120456d641.png)
+![pack](https://user-images.githubusercontent.com/58851040/119498390-28ac6f00-bd98-11eb-9a0b-2aa96705b40d.png)
+![pack](https://user-images.githubusercontent.com/58851040/119498398-2ba75f80-bd98-11eb-9d7b-34abdef1778f.png)
