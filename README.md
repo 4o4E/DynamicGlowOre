@@ -1,6 +1,9 @@
-# GrowOre
+# DynamicGlowOre
 
-Minecraft 动态发光矿石 材质包
+> Minecraft动态发光矿石材质包
+
+[![Release](https://img.shields.io/github/v/release/4o4E/DynamicGlowOre?label=Release)](https://github.com/4o4E/DynamicGlowOre/releases/latest)
+[![Downloads](https://img.shields.io/github/downloads/4o4E/DynamicGlowOre/total?label=Download)](https://github.com/4o4E/DynamicGlowOre/releases)
 
 # 版本支持
 
@@ -25,12 +28,12 @@ Minecraft 动态发光矿石 材质包
 
 ## 注意事项
 
-1. 普通版本需要`optifine`, 尚不支持`iris`或者其他渲染mod
-2. pbr版本的材质需要`optifine`和支持`pbr`的光影, 并且打开pbr贴图的支持(根据光影的不同, 设置位置也不同)
+1. `普通版本`需要`optifine`(尚不支持`iris`或者其他渲染mod), 并且在`视频设置` -> `品质` 中设置`自发光纹理`为开
+2. `pbr版本`的材质需要`optifine`和支持`pbr`的光影, 并且打开pbr贴图的支持(根据光影的不同, 设置位置也不同)
 
 # 哔哩哔哩展示视频
 
-https://www.bilibili.com/video/BV1cv411v77b/
+[BV1cv411v77b](https://www.bilibili.com/video/BV1cv411v77b)
 
 # 效果展示
 
