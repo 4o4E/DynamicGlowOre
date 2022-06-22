@@ -1,3 +1,4 @@
 .idea
-package/build
+pack/build
+pack/.gradle
 *.zip

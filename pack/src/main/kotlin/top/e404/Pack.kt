@@ -16,6 +16,9 @@ fun main() {
         "1.13-1.16" to "DynamicGlowOre_1.13-1.16.zip",
         "1.13-1.16_pbr" to "DynamicGlowOre_1.13-1.16_pbr.zip",
         "1.17+" to "DynamicGlowOre_1.17+.zip",
+        "ae2_pbr" to "DynamicGlowOre_ae2_1.16.5_pbr.zip",
+        "create_pbr" to "DynamicGlowOre_create_1.16.5_pbr.zip",
+        "mek_pbr" to "DynamicGlowOre_mek_1.16.5_pbr.zip",
     )
 
     runBlocking {
