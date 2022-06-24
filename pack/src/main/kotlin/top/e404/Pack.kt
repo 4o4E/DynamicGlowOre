@@ -27,9 +27,7 @@ fun main() {
                 val file = File(folder)
                 withContext(Dispatchers.IO) {
                     FileOutputStream(zipName).use { fos ->
-                        ZipOutputStream(fos).use { zos ->
-                            file.zip("", zos)
-                        }
+                        ZipOutputStream(fos).use { zos -> file.zip(null, zos) }
                     }
                 }
             }
@@ -37,15 +35,15 @@ fun main() {
     }
 }
 
-suspend fun File.zip(path: String, zos: ZipOutputStream) {
+suspend fun File.zip(path: String?, zos: ZipOutputStream) {
     if (isDirectory) {
         listFiles()?.forEach {
-            it.zip("$path/${it.name}", zos)
+            it.zip(if (path == null) it.name else "$path/${it.name}", zos)
         }
         return
     }
     withContext(Dispatchers.IO) {
-        zos.putNextEntry(ZipEntry(path))
+        zos.putNextEntry(ZipEntry(path ?: name))
         inputStream().use { it.copyTo(zos) }
     }
 }
