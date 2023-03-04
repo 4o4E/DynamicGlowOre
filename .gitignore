@@ -1,4 +1,3 @@
 .idea
-pack/build
-pack/.gradle
-*.zip
+.gradle
+build
