@@ -1,15 +1,14 @@
 package top.e404
 
 import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.launch
-import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withContext
 import java.io.File
-import java.io.FileOutputStream
 import java.util.zip.ZipEntry
 import java.util.zip.ZipOutputStream
 
-fun main() {
+suspend fun main() {
     val target = mapOf(
         "1.12-" to "DynamicGlowOre_1.12-.zip",
         "1.12-_pbr" to "DynamicGlowOre_1.12-_pbr.zip",
@@ -21,15 +20,12 @@ fun main() {
         "mek_pbr" to "DynamicGlowOre_mek_1.16.5_pbr.zip",
     )
 
-    runBlocking {
+    val buildDir = File("build")
+
+    coroutineScope {
         target.forEach { (folder, zipName) ->
-            launch {
-                val file = File(folder)
-                withContext(Dispatchers.IO) {
-                    FileOutputStream(zipName).use { fos ->
-                        ZipOutputStream(fos).use { zos -> file.zip(null, zos) }
-                    }
-                }
+            launch(Dispatchers.IO) {
+                ZipOutputStream(buildDir.resolve(zipName).outputStream()).use { zos -> File(folder).zip(null, zos) }
             }
         }
     }
